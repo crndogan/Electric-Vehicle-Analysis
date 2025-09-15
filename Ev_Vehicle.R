@@ -3,7 +3,7 @@ library(dplyr)
 library(tidyverse)
 library(ggplot2)
 
-ev_data <- read_csv("C:/Users/ceren/Downloads/Electric_Vehicle_Population_Data.csv")
+ev_data <- read_csv("C:/Electric_Vehicle_Population_Data.csv")
 
 #Inspect the data
 head(ev_data)
@@ -141,5 +141,6 @@ write.csv(ev_data, "Ev_Data.csv", row.names = FALSE)
 write.csv(ev_state, "Df1_EvState.csv", row.names = FALSE)
 write.csv(ev_type, "Df2_EvType.csv", row.names = FALSE)
 write.csv(ev_price, "Df3_EvPrice.csv", row.names = FALSE)
+
 
 
