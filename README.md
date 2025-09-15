@@ -36,10 +36,6 @@ Key steps in the analysis:
 - 🥧 Pie chart: Distribution of EV types  
 - 📉 Line chart: Top 10 makes by average electric range  
 
-(*see `/outputs/` or report docx for sample charts*)
-
----
-
 ## How to Run
 1. Clone this repo:
    ```bash
